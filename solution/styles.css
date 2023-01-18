@@ -9,6 +9,8 @@ h1 {
 div{
   border: 2px solid black;
   margin: 10px;
+  background-color: #666666;
+  height: auto;
 }
 #section1 {
   text-align: center;
@@ -45,11 +47,10 @@ div{
   float: right;
 }
 p {
-  background-color: #666666;
-  height: auto;
   margin: 0%;
   color: white;
-  padding-top: 40px;
+  padding: 40px 5px 5px 5px;
+  text-align: left;
 }
 
 /********** desktop version only **********/
