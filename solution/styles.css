@@ -1,10 +1,12 @@
 * {
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h1 {
-  margin-bottom: 15px;
-  text-align: center;
+  font-size: 3em;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 5%;
 }
 div{
   border: 2px solid black;
@@ -13,44 +15,43 @@ div{
   height: auto;
 }
 #section1 {
-  text-align: center;
-  position: relative;
-  background-color: aqua;
+  background-color: #00ffff;
   border-left: 2px solid black;
   border-bottom: 2px solid black;
-  width: 40%;
-  margin-top: 0%;
-  margin-bottom: 0%;
+  position: relative;
   float: right;
-
+  text-align: center;
+  font-size: 1.2em;
+  margin: 0px;
+  padding: 5px 30px 5px 30px; 
 }
 #section2 {
-  text-align: center;
-  position: relative;
   background-color: rgb(132, 248, 147);
   border-left: 2px solid black;
   border-bottom: 2px solid black;
-  width: 40%;
-  margin-top: 0%;
-  margin-bottom: 0%;
+  position: relative;
   float: right;
+  text-align: center;
+  font-size: 1.2em;
+  margin: 0px;
+  padding: 5px 30px 5px 30px; 
 }
 #section3 {
-  text-align: center;
-  position: relative;
   background-color: rgb(255, 97, 97);
   border-left: 2px solid black;
   border-bottom: 2px solid black;
-  width: 40%;
-  margin-top: 0%;
-  margin-bottom: 0%;
+  position: relative;
   float: right;
+  text-align: center;
+  font-size: 1.2em;
+  margin: 0px;
+  padding: 5px 30px 5px 30px; 
 }
 p {
   margin: 0%;
   color: white;
-  padding: 40px 5px 5px 5px;
-  text-align: left;
+  padding: 50px 5px 10px 5px;
+  text-align: justify;
 }
 
 /********** desktop version only **********/
